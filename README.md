@@ -1,230 +1,218 @@
-📊 HR Analytics Dashboard - Employee Attrition Analysis
-🎯 Resumen Ejecutivo
+**📊 HR Analytics Dashboard - Employee Attrition Analysis**
+
+**🎯 Resumen Ejecutivo<br>**
 Dashboard interactivo de análisis de recursos humanos que identifica patrones de rotación de personal y factores de riesgo en una empresa con 1,470 empleados. El proyecto revela que el 16.12% de attrition está concentrado en perfiles específicos: empleados jóvenes, solteros, en roles de ventas, y con baja antigüedad.
 
-🚀 Problema de Negocio
+**🚀 Problema de Negocio<br>**
 Una empresa enfrenta una tasa de rotación de personal del 16.12% (237 empleados renunciaron), significativamente por encima del estándar saludable de 5-10%. Se necesita identificar:
 
-¿Qué departamentos y roles tienen mayor attrition?
-¿Qué factores predicen que un empleado renunciará?
-¿Cuál es el perfil de riesgo alto?
-¿Cómo se relacionan salarios, distancia y satisfacción con las renuncias?
+- ¿Qué departamentos y roles tienen mayor attrition?<br>
+- ¿Qué factores predicen que un empleado renunciará?<br>
+- ¿Cuál es el perfil de riesgo alto?<br>
+- ¿Cómo se relacionan salarios, distancia y satisfacción con las renuncias?
 
-
-📊 Solución Implementada
+**📊 Solución Implementada<br>**
 Dashboard interactivo de 3 páginas en Power BI que analiza:
-Página 1: Executive Overview
 
-KPIs principales: Total empleados, attrition count, attrition rate, edad promedio, salario promedio
-Distribución de attrition por departamento y género
+**Página 1: Executive Overview**
+
+KPIs principales: Total empleados, attrition count, attrition rate, edad promedio, salario promedio<br>
+Distribución de attrition por departamento y género<br>
 Tarjeta de alerta: 23 empleados en alto riesgo de renuncia
 
-Página 2: Attrition Deep Dive - Root Cause Analysis
+**Página 2: Attrition Deep Dive - Root Cause Analysis**
 
-Análisis comparativo: años en la empresa, distancia de casa, satisfacción laboral
-Attrition por rol de trabajo (matriz con tasas y salarios)
-Identificación de roles críticos: Sales Representative (39.76% attrition)
+Análisis comparativo: años en la empresa, distancia de casa, satisfacción laboral<br>
+Attrition por rol de trabajo (matriz con tasas y salarios)<br>
+Identificación de roles críticos: Sales Representative (39.76% attrition)<br>
 
-Página 3: Employee Demographics & Profile Analysis
+**Página 3: Employee Demographics & Profile Analysis**
 
-Distribución demográfica: edad, género, estado civil, campo educativo
-Análisis generacional: empleados jóvenes vs senior
+Distribución demográfica: edad, género, estado civil, campo educativo<br>
+Análisis generacional: empleados jóvenes vs senior<br>
 Comparación de edad promedio: activos (38 años) vs renuncias (34 años)
 
+**🔍 Insights Principales<br>**
+**📈 Hallazgos Críticos:**
 
-🔍 Insights Principales
-📈 Hallazgos Críticos:
+**Roles de Alto Riesgo:**
 
-Roles de Alto Riesgo:
+- Sales Representative: 39.76% attrition (crítico)<br>
+- Laboratory Technician: 23.94% attrition<br>
+- Human Resources: 23.08% attrition
 
-Sales Representative: 39.76% attrition (crítico)
-Laboratory Technician: 23.94% attrition
-Human Resources: 23.08% attrition
+**Perfil de Riesgo:**
 
+- **Edad:** 4 años más jóvenes (34 vs 38 años)<br>
+- **Estado civil:** Solteros (120 renuncias - el grupo más alto)<br>
+- **Antigüedad:** 2.24 años menos en la empresa (5.13 vs 7.37 años)<br>
+- **Distancia:** Viven 1.44 km más lejos (10.63 vs 9.19 km)
 
-Perfil de Riesgo:
+**Brecha Salarial:**
 
-Edad: 4 años más jóvenes (34 vs 38 años)
-Estado civil: Solteros (120 renuncias - el grupo más alto)
-Antigüedad: 2.24 años menos en la empresa (5.13 vs 7.37 años)
-Distancia: Viven 1.44 km más lejos (10.63 vs 9.19 km)
+- Empleados que renunciaron: $4,787/mes promedio<br>
+- Empleados activos: $6,833/mes promedio<br>
+- Gap: $2,046/mes - El salario bajo es un factor significativo
 
+**Alto Riesgo Actual:**
 
-Brecha Salarial:
+- **23** empleados activos cumplen criterios de alto riesgo<br>
+- **Criterios:** JobSatisfaction ≤ 2 + YearsAtCompany ≤ 2
 
-Empleados que renunciaron: $4,787/mes promedio
-Empleados activos: $6,833/mes promedio
-Gap: $2,046/mes - El salario bajo es un factor significativo
+**📊 Distribución:**
 
+- **Research & Development:** 65.37% de empleados, 133 renuncias<br>
+- **Sales:** 30.34% de empleados, 92 renuncias<br>
+- **Human Resources:** 4.29% de empleados, 12 renuncias
 
-Alto Riesgo Actual:
+**💡 Recomendaciones de Negocio**
+**Acciones Inmediatas:**
 
-23 empleados activos cumplen criterios de alto riesgo
-Criterios: JobSatisfaction ≤ 2 + YearsAtCompany ≤ 2
+**Intervención en Sales Representative:**
 
+- Revisar estructura de compensación (están $1,400 bajo el promedio)<br>
+- Implementar plan de retención para este rol<br>
+- Análisis de carga de trabajo y expectativas
 
+**Programa de Retención para Empleados Jóvenes:**
 
-📊 Distribución:
+- Mentorías para empleados menores de 35 años<br>
+- Plan de carrera claro en primeros 2 años<br>
+- Revisión salarial para nuevos ingresos
 
-Research & Development: 65.37% de empleados, 133 renuncias
-Sales: 30.34% de empleados, 92 renuncias
-Human Resources: 4.29% de empleados, 12 renuncias
+**Revisión de Compensación:**
 
+- Ajustar salarios del cuartil inferior<br>
+- Bonus de retención para roles críticos<br>
+- Benchmark contra mercado
 
-💡 Recomendaciones de Negocio
-Acciones Inmediatas:
+**Seguimiento de Empleados de Alto Riesgo:**
 
-Intervención en Sales Representative:
+- Entrevistas one-on-one con los 23 en riesgo<br>
+- Plan de mejora de satisfacción laboral<br>
+- Considerar trabajo remoto para empleados lejanos
 
-Revisar estructura de compensación (están $1,400 bajo el promedio)
-Implementar plan de retención para este rol
-Análisis de carga de trabajo y expectativas
+**🛠️ Herramientas y Técnicas Utilizadas Power BI:**
 
+- **Power Query:** Limpieza y transformación de datos<br>
+- **DAX:** 20+ medidas calculadas (básicas, intermedias y avanzadas)<br>
+- **Modelado de datos:** Tabla de hechos + dimensiones<br>
+- **Visualizaciones:** 15+ visuales interactivos<br>
+- Slicers sincronizados para interactividad
 
-Programa de Retención para Empleados Jóvenes:
+**Funciones DAX:**
 
-Mentorías para empleados menores de 35 años
-Plan de carrera claro en primeros 2 años
-Revisión salarial para nuevos ingresos
+- CALCULATE, FILTER, ALL<br>
+- DIVIDE (manejo de errores)<br>
+- TOPN (análisis de rankings)<br>
+- Variables (VAR/RETURN) para código limpio<br>
+- Time Intelligence (comparaciones temporales)<br>
+- Formato condicional con medidas
 
+**Diseño:**
 
-Revisión de Compensación:
+- Paleta de colores consistente<br>
+- Iconos en KPIs para mejor comprensión visual<br>
+- Formato condicional (semáforos de riesgo)<br>
+ -Tooltips informativos<br>
+- Navegación intuitiva entre páginas
 
-Ajustar salarios del cuartil inferior
-Bonus de retención para roles críticos
-Benchmark contra mercado
+**📈 Habilidades Demostradas<br>**
+**✅ Análisis de Datos:**
 
+- Identificación de patrones y correlaciones<br>
+- Segmentación de datos (edad, departamento, rol)<br>
+- Análisis comparativo (activos vs renuncias)<br>
+- Identificación de outliers y grupos de riesgo
 
-Seguimiento de Empleados de Alto Riesgo:
+**✅ Power BI Técnico:**
 
-Entrevistas one-on-one con los 23 en riesgo
-Plan de mejora de satisfacción laboral
-Considerar trabajo remoto para empleados lejanos
+- Limpieza de datos en Power Query<br>
+- Creación de columnas calculadas (Age Groups)<br>
+- 20+ medidas DAX con diferentes complejidades<br>
+- Formato condicional dinámico<br>
+- Interactividad con slicers
 
+**✅ Business Intelligence:**
 
+- Traducción de datos a insights accionables<br>
+- Storytelling con datos (3 páginas con narrativa clara)<br>
+- KPIs relevantes para stakeholders<br>
+- Recomendaciones basadas en datos
 
+**✅ Visualización:**
 
-🛠️ Herramientas y Técnicas Utilizadas
-Power BI:
+- Selección apropiada de gráficos por tipo de dato<br>
+- Diseño limpio y profesional<br>
+- Uso de colores para comunicar (rojo=problema, verde=ok)<br>
+- Iconografía para facilitar comprensión
 
-Power Query: Limpieza y transformación de datos
-DAX: 20+ medidas calculadas (básicas, intermedias y avanzadas)
-Modelado de datos: Tabla de hechos + dimensiones
-Visualizaciones: 15+ visuales interactivos
-Slicers sincronizados para interactividad
+**📁 Dataset**
+**Fuente:** IBM HR Analytics Employee Attrition Dataset (Kaggle)<br>
 
-DAX Functions:
+**Características:**
+- 1,470 registros (empleados)<br>
+- 35 columnas<br>
 
-CALCULATE, FILTER, ALL
-DIVIDE (manejo de errores)
-TOPN (análisis de rankings)
-Variables (VAR/RETURN) para código limpio
-Time Intelligence (comparaciones temporales)
-Formato condicional con medidas
+**Variables:** demográficas, laborales, satisfacción, compensación
 
-Diseño:
+**Transformaciones aplicadas:**
 
-Paleta de colores consistente
-Iconos en KPIs para mejor comprensión visual
-Formato condicional (semáforos de riesgo)
-Tooltips informativos
-Navegación intuitiva entre páginas
+- Eliminación de columnas redundantes (Over18, EmployeeCount)<br>
+- Creación de grupos de edad (5 categorías)<br>
+- Validación de tipos de datos<br>
+- Limpieza de valores nulos
 
+**🎯 Resultados del Proyecto<br>**
+Impacto Potencial:<br>
+**Si la empresa implementa las recomendaciones:**
 
-📈 Habilidades Demostradas
-✅ Análisis de Datos:
+- Reducción proyectada de attrition: de 16.12% a 10% (ahorro de ~60 renuncias/año)<br>
+- Ahorro estimado en reclutamiento: $50K-$100K/año<br>
+- Mejora en clima laboral y productividad
 
-Identificación de patrones y correlaciones
-Segmentación de datos (edad, departamento, rol)
-Análisis comparativo (activos vs renuncias)
-Identificación de outliers y grupos de riesgo
+**Métricas de Éxito del Dashboard:**
 
-✅ Power BI Técnico:
+- 3 páginas interactivas conectadas<br>
+- 15+ visualizaciones complementarias<br>
+- 20+ medidas DAX personalizadas<br>
+- 6 slicers para exploración dinámica<br>
+- Tiempo de carga: <2 segundos
 
-Limpieza de datos en Power Query
-Creación de columnas calculadas (Age Groups)
-20+ medidas DAX con diferentes complejidades
-Formato condicional dinámico
-Interactividad con slicers
+**📸 Capturas de Pantalla<br>**
 
-✅ Business Intelligence:
+**Dashboard 1: Executive Overview<br>**
 
-Traducción de datos a insights accionables
-Storytelling con datos (3 páginas con narrativa clara)
-KPIs relevantes para stakeholders
-Recomendaciones basadas en datos
-
-✅ Visualización:
-
-Selección apropiada de gráficos por tipo de dato
-Diseño limpio y profesional
-Uso de colores para comunicar (rojo=problema, verde=ok)
-Iconografía para facilitar comprensión
-
-
-📁 Dataset
-Fuente: IBM HR Analytics Employee Attrition Dataset (Kaggle)
-Características:
-
-1,470 registros (empleados)
-35 columnas
-Variables: demográficas, laborales, satisfacción, compensación
-
-Transformaciones aplicadas:
-
-Eliminación de columnas redundantes (Over18, EmployeeCount)
-Creación de grupos de edad (5 categorías)
-Validación de tipos de datos
-Limpieza de valores nulos
-
-
-🎯 Resultados del Proyecto
-Impacto Potencial:
-Si la empresa implementa las recomendaciones:
-
-Reducción proyectada de attrition: de 16.12% a 10% (ahorro de ~60 renuncias/año)
-Ahorro estimado en reclutamiento: $50K-$100K/año
-Mejora en clima laboral y productividad
-
-Métricas de Éxito del Dashboard:
-
-3 páginas interactivas conectadas
-15+ visualizaciones complementarias
-20+ medidas DAX personalizadas
-6 slicers para exploración dinámica
-Tiempo de carga: <2 segundos
-
-
-📸 Capturas de Pantalla
-Dashboard 1: Executive Overview
-![Executive Overview](images/dashboard_1_executive.png)
+![Executive Overview](images/dashboard_1_executive.png)<br>
 Vista general con KPIs principales y distribución de attrition
-Dashboard 2: Attrition Deep Dive
-![Attrition Analysis](images/dashboard_2_attrition.png)
+
+**Dashboard 2: Attrition Deep Dive**
+
+![Attrition Analysis](images/dashboard_2_attrition.png)<br>
 Análisis de causas raíz y roles críticos
-Dashboard 3: Employee Demographics
-![Demographics](images/dashboard_3_demographics.png)
+
+**Dashboard 3: Employee Demographics**
+
+![Demographics](images/dashboard_3_demographics.png)<br>
 Perfil demográfico y análisis generacional
 
-🔗 Archivos del Proyecto
+**🔗 Archivos del Proyecto**
 
-Dashboard interactivo: Descargar archivo .pbix
-Dataset: HR_Analytics_Dataset.csv
-Video demo: Ver en YouTube/Loom
-GitHub: Repositorio completo
+- Dashboard interactivo: Descargar archivo .pbix<br>
+- Dataset: HR_Analytics_Dataset.csv<br>
+- GitHub: Repositorio completo
 
-
-👨‍💻 Sobre mí
-Diego Alejandro Pérez Pastrana
-Analista de Datos con experiencia en Power BI, SQL y análisis de negocio.
-📧 Email: devcode480@gmail.com
-💼 LinkedIn: linkedin.com/in/diego-perez480/
+**👨‍💻 Sobre mí<br>**
+Diego Alejandro Pérez Pastrana<br>
+Analista de Datos con experiencia en Power BI, SQL y análisis de negocio.<br>
+📧 Email: devcode480@gmail.com<br>
+💼 LinkedIn: linkedin.com/in/diego-perez480/<br>
 🐙 GitHub: github.com/AleCodeDev
 
-📝 Notas Técnicas
-Versión de Power BI: Desktop (última versión)
-Fecha de creación: Diciembre 2024
-Tiempo de desarrollo: 3 días
-Nivel del proyecto: Intermedio
+**📝 Notas Técnicas<br>**
+- Versión de Power BI: Desktop (última versión)<br>
+- Fecha de creación: Diciembre 2024<br>
+- Tiempo de desarrollo: 3 días<br>
+- Nivel del proyecto: Intermedio
 
 Este proyecto fue desarrollado como parte de mi portafolio de análisis de datos, demostrando mis habilidades en Power BI, DAX, visualización de datos y business intelligence aplicado a recursos humanos.
