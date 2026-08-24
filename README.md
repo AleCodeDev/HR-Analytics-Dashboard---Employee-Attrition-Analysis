@@ -2,7 +2,7 @@
 
 **🎯 Resumen Ejecutivo<br>**
 Dashboard interactivo de análisis de recursos humanos que identifica patrones de rotación de personal y factores de riesgo en una empresa con 1,470 empleados. El proyecto revela que el 16.12% de attrition está concentrado en perfiles específicos: empleados jóvenes, solteros, en roles de ventas, y con baja antigüedad.
----
+
 **🚀 Problema de Negocio<br>**
 Una empresa enfrenta una tasa de rotación de personal del 16.12% (237 empleados renunciaron), significativamente por encima del estándar saludable de 5-10%. Se necesita identificar:
 
